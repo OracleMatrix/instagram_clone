@@ -27,7 +27,7 @@ A full instagram clone app
 To get started, follow these steps:
 
 
-1- Clone the repository: git clone https://github.com/OracleMatrix/flutter_instagram_clone.git
+1- Clone the repository: git clone [https://github.com/OracleMatrix/flutter_instagram_clone.git](https://github.com/OracleMatrix/instagram_clone)
 2- Install dependencies: flutter pub get
 3- Configure Firebase: Create a Firebase project and enable the Firestore and Authentication
 services. Then, create a firebase_options.dart file in the lib directory with your Firebase
