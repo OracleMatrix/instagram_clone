@@ -5,6 +5,7 @@ A full instagram clone app
 ## Features
 
 * **Real-time:** Follow and unfollow users in real-time using Firebase Firestore.
+* **Real-time like and comments:** Like and write comments for users in real-time.
 * **User authentication:** Authenticate users using Firebase Authentication.
 * **User profiles:** View and edit user profile, including profile picture and name, username, bio.
 * **Posts sharing:** Share images files in with firends.
