@@ -54,17 +54,25 @@ An **Instagram Clone** project that mimics the core functionalities of Instagram
 
 Here are the main dependencies used in the project:
 
-- `flutter`: ^3.0.0
-- `firebase_core`: ^3.4.1
-- `firebase_auth`: ^5.2.1
-- `cloud_firestore`: ^5.4.1
-- `firebase_storage`: ^12.3.0
-- `google_fonts`: ^6.2.1
-- `cached_network_image`: ^3.4.1
-- `image_picker`: ^1.1.2
-- `provider`: ^6.1.2
-- `adaptive_theme`: ^3.6.0
-- `timeago`: ^3.7.0
+| Package Name                  | Version |
+|-------------------------------|---------|
+| `firebase_core`               | ^3.4.1  |
+| `firebase_auth`               | ^5.2.1  |
+| `cloud_firestore`             | ^5.4.1  |
+| `firebase_storage`            | ^12.3.0 |
+| `google_fonts`                | ^6.2.1  |
+| `cached_network_image`        | ^3.4.1  |
+| `path_provider`               | ^2.1.5  |
+| `image_picker`                | ^1.1.2  |
+| `adaptive_theme`              | ^3.6.0  |
+| `provider`                    | ^6.1.2  |
+| `animated_bottom_navigation_bar` | ^1.3.3 |
+| `timeago`                     | ^3.7.0  |
+| `email_validator`             | ^3.0.0  |
+| `flutter_cache_manager`       | ^3.4.1  |
+| `flutter_launcher_icons`      | ^0.14.1 |
+| `pull_to_refresh`             | ^2.0.0  |
+| `sqflite`                     | ^2.4.1  |
 
 For the full list of dependencies, check the [`pubspec.yaml`](pubspec.yaml).
 
