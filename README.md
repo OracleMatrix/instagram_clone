@@ -85,7 +85,11 @@ Assets used in the project include:
 ## Screenshots 📷
 
 > Showcase screenshots of the app here.
-
+|                               |                               |                               |
+|-------------------------------|-------------------------------|-------------------------------|
+| ![login_page.jpg](screenshots/login_page.jpg) | ![signup_page.jpg](screenshots/signup_page.jpg) | ![home_page.jpg](screenshots/home_page.jpg) |
+| ![home_light_theme.jpg](screenshots/home_light_theme.jpg) | ![profile_page.jpg](screenshots/profile_page.jpg) | ![search_page.jpg](screenshots/search_page.jpg) |
+| ![user_page.jpg](screenshots/user_page.jpg) | ![edit_profile_page.jpg](screenshots/edit_profile_page.jpg) | ![comments.jpg](screenshots/comments.jpg) || ![settings_page.jpg](screenshots/settings_page.jpg) | ![add_post_page.jpg](screenshots/add_post_page.jpg) | ![profile_light_theme.jpg](screenshots/profile_light_theme.jpg) |
 ---
 
 ## Contributions 🤝
