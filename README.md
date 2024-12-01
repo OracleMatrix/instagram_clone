@@ -1,71 +1,114 @@
-# Instagram Clone
+# Instagram Clone 📸
 
-A full instagram clone app
+An **Instagram Clone** project that mimics the core functionalities of Instagram. Built using Flutter, Firebase, and a range of other powerful tools, this app demonstrates scalable architecture and features for social media platforms.
 
-## Features
+---
 
-* **Real-time:** Follow and unfollow users in real-time using Firebase Firestore.
-* **Real-time like and comments:** Like and write comments for users in real-time.
-* **User authentication:** Authenticate users using Firebase Authentication.
-* **User profiles:** View and edit user profile, including profile picture and name, username, bio.
-* **Posts sharing:** Share images files in with firends.
-* **Settings:** View and edit app settings, including theme and user account.
-* **Activity:** See your newest info about your firends follow and unfollow or like and comments acts on your posts.
-* **Comments:** Write a comment for friends to see in real-time.
-* **Delete account:** Delete your account and all associated data.
+## Features ✨
 
-## ScreenShots
+- User Authentication (Signup/Login/Logout)
+- Create, edit, and delete posts
+- Like and comment on posts
+- Profile management
+- Real-time data syncing with **Firebase**
+- Responsive UI for various device sizes
+- Dark and Light themes with `adaptive_theme`
+- Image uploading using `firebase_storage` and `image_picker`
 
-|                               |                               |                               |
-|-------------------------------|-------------------------------|-------------------------------|
-| ![login_page.jpg](screenshots/login_page.jpg) | ![signup_page.jpg](screenshots/signup_page.jpg) | ![home_page.jpg](screenshots/home_page.jpg) |
-| ![home_light_theme.jpg](screenshots/home_light_theme.jpg) | ![profile_page.jpg](screenshots/profile_page.jpg) | ![search_page.jpg](screenshots/search_page.jpg) |
-| ![user_page.jpg](screenshots/user_page.jpg) | ![edit_profile_page.jpg](screenshots/edit_profile_page.jpg) | ![comments.jpg](screenshots/comments.jpg) || ![settings_page.jpg](screenshots/settings_page.jpg) | ![add_post_page.jpg](screenshots/add_post_page.jpg) | ![profile_light_theme.jpg](screenshots/profile_light_theme.jpg) |
+---
 
-## Getting Started
+## Tech Stack 🛠
 
-To get started, follow these steps:
+- **Frontend**: Flutter (Dart)
+- **Backend**: Firebase (Firestore, Authentication, Storage, Analytics)
+- **State Management**: Provider
+- **UI Components**: Google Fonts, Cached Network Images
+- **Utilities**: Image Picker, Connectivity Plus, Timeago
 
+---
 
-* 1- Clone the repository: git clone https://github.com/OracleMatrix/instagram_clone.git
-* 2- Install dependencies: flutter pub get
-* 3- Configure Firebase: Create a Firebase project and enable the Firestore and Authentication
-services. Then, create a firebase_options.dart file in the lib directory with your Firebase
-configuration.
-* 4- get the google-services.json and put it in /android/app
-* 5- Run the app: flutter run
-**Note:** it's better after create project in your firebase console install flutterfire and run the
-command "flutterfire configure" in your project path, there is lots of videos about flutterfire on
-internet if you don't know!
+## Installation Guide 🛠️
 
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your_username/instagram_clone.git
+   cd instagram_clone
+   ```
+2. **Install dependencies**
+   ```bash
+   flutter pub get
+   ```
+3. **Set up Firebase**
+   - Create a new Firebase project.
+   - Add your Android, iOS, and Web apps.
+   - Download and place `google-services.json` (for Android) and `GoogleService-Info.plist` (for iOS) in the respective folders.
+   - Enable Firebase services: Firestore, Authentication, and Storage.
+4. **Run the app**
+   ```bash
+   flutter run
+   ```
 
-### Code Structure
+---
 
-The code is organized into the following directories:
+## Dependencies 📦
 
-* lib: Contains the main application code.
-* pages: Contains the different pages of the app, such as the home page and profile page.
-* provider: Contains the Firebase provider, which handles Firebase authentication and data storage.
-* services: Contains services for handling tasks such as saving users info and uploading media.
+Here are the main dependencies used in the project:
 
-### Dependencies
+- `flutter`: ^3.0.0
+- `firebase_core`: ^3.4.1
+- `firebase_auth`: ^5.2.1
+- `cloud_firestore`: ^5.4.1
+- `firebase_storage`: ^12.3.0
+- `google_fonts`: ^6.2.1
+- `cached_network_image`: ^3.4.1
+- `image_picker`: ^1.1.2
+- `provider`: ^6.1.2
+- `adaptive_theme`: ^3.6.0
+- `timeago`: ^3.7.0
 
-The app uses the following dependencies:
+For the full list of dependencies, check the [`pubspec.yaml`](pubspec.yaml).
 
-* flutter: The Flutter framework.
-* firebase_core: The Firebase Core SDK for Flutter.
-* firebase_auth: The Firebase Authentication SDK for Flutter.
-* cloud_firestore: The Firebase Firestore SDK for Flutter.
-* firebase_storage: The Firebase Storage SDK for Flutter.
-* provider: A state management library for Flutter.
-* adaptive_theme: A library for adaptive themes in Flutter.
-* google_fonts: A library for Google Fonts in Flutter.
-* cached_network_image: A library for caching network images in Flutter.
-* loading_animation_widget: A library for loading animations in Flutter.
-* image_picker: A library for file picking in Flutter.
-* and...
+---
 
-### Contributing
+## Assets 📂
 
-Contributions are welcome! If you'd like to contribute to the Instagram-clone App, please fork the
-repository and submit a pull request with your changes.
+Assets used in the project include:
+
+- `assets/images/insta_logo.png`
+- `assets/images/app_icon.png`
+- `assets/images/instagram_text_logo.png`
+- `assets/images/profile_pic.jpg`
+- `assets/images/instagram-logo-white.png`
+
+---
+
+## Screenshots 📷
+
+> Showcase screenshots of the app here.
+
+---
+
+## Contributions 🤝
+
+Contributions are welcome! Follow these steps:
+
+1. Fork the repository.
+2. Create your feature branch:
+   ```bash
+   git checkout -b feature/AmazingFeature
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m 'Add some AmazingFeature'
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/AmazingFeature
+   ```
+5. Open a pull request.
+
+---
+
+## License 📜
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
