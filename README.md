@@ -83,8 +83,6 @@ Assets used in the project include:
 ---
 
 ## Screenshots 📷
-
-> Showcase screenshots of the app here.
 |                               |                               |                               |
 |-------------------------------|-------------------------------|-------------------------------|
 | ![login_page.jpg](screenshots/login_page.jpg) | ![signup_page.jpg](screenshots/signup_page.jpg) | ![home_page.jpg](screenshots/home_page.jpg) |
