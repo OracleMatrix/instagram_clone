@@ -90,6 +90,23 @@ Assets used in the project include:
 
 ---
 
+## 📂 Project Structure
+
+```plaintext
+lib/
+├── main.dart
+├── models/
+├── providers/
+├── screens/
+│   ├── auth/
+│   ├── home/
+│   ├── profile/
+│   └── upload/
+└── widgets/
+```
+
+---
+
 ## Screenshots 📷
 |                               |                               |                               |
 |-------------------------------|-------------------------------|-------------------------------|
